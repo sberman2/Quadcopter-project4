@@ -16,7 +16,7 @@ hold on
 plot (time,sols(:,3));
 legend('x', 'y', 'z');
 
-end 
+end sarah
 
 function dwdt = diff_equ (t, w)
 x= w(1); y=w(2); z= w(3);
